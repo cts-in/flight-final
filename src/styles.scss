@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import '../node_modules/bulma/bulma.sass';
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+.mainBlock{
+    min-height: 400px;
+}
+nav{
+    border-bottom: solid 1px #333333;
+}
+.cap{
+    text-transform: capitalize;
+}

@@ -1,0 +1,26 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item " routerLink="/" routerLinkActive="active">
+          By Carrier
+        </a>
+        <a class="navbar-item " routerLink="/origin" routerLinkActive="active">
+          By Origin
+        </a>
+        <a class="navbar-item " routerLink="/destination" routerLinkActive="active">
+          By Destination
+        </a>
+        <a class="navbar-item " routerLink="/pricerange" routerLinkActive="active">
+          By PriceRange
+        </a>
+      </div>
+    </div>
+</nav>
+
+<div class="content">
+  <section class="section">
+    <div class="container mainBlock">
+        <router-outlet></router-outlet>
+    </div>
+    </section>
+</div>
